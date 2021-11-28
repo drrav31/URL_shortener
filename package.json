@@ -1,0 +1,20 @@
+{
+  "name": "url_shortener",
+  "version": "0.0.1",
+  "description": "Url shortener",
+  "main": "dist/server.js",
+  "scripts": {
+    "build":"tsc.cmd",
+    "prestart": "npm run build",
+    "start": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "github:types/express",
+    "typescript": "^4.5.2"
+  }
+}
